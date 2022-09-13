@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title> CLass Selector</title>
+    <style>
+      
+        .mood{
+            text-align:center;
+            color:red;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="mood">CSS CLASS SELECTOR...This Heading is also effected with other elements having same class.</h1>
+    <p class="mood">The class selector selects HTML elements with a specific class attribute....This para will GET effected.</p>
+    <p class="mood">To select elements with a specific class, write a period (.) character, followed by the class name....This para will GET effeted.</p>
+    <h2>This Heading will not be effected</h2>
+    <ul>
+        <li>This List will also not be effected</li>
+        <li>I told ya..</li>
+        <li>Still nothing happened.....</li>
+    </ul>
+    
+
+
+</body>
+
+</html>
