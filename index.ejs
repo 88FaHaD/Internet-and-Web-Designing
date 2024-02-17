@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+    <h3 class="black-text"><%= name %></h3>
+    <div class="container">
+        <div class="login">
+            <div class="logo">
+                <img src="https://picsum.photos/250/60" alt="Company logo" width="250px" height="60px">
+                <p><small>Company Name Login</small></p>
+            </div>
+            <div class="login-item">
+                <form action="" method="post" class="form form-login">
+                    <div class="form-field">
+                        <label class="user" for="login-username"></label>
+                        <input type="text" class="form-input" placeholder="Username" @focus="$event.target.select()"
+                            required>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="lock" for="login-password"></label>
+                        <input type="password" class="form-input" placeholder="Password" @focus="$event.target.select()"
+                            required>
+                    </div>
+                    <div class="form-field">
+                        <input type="submit" value="Log in">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
